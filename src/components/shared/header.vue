@@ -9,7 +9,6 @@
         <b-nav-item href="#">Specs</b-nav-item>
         <b-nav-item href="#">Contact</b-nav-item>
       </b-navbar-nav>
-      <!-- Right aligned nav items -->
     </b-collapse>
   </b-navbar>
 </template>

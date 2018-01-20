@@ -3,12 +3,14 @@
   <div id="app">
     <app-header></app-header>
     <router-view/>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import Header from './components/shared/header';
-// import Footer from './components/Body/Main/Footer.vue'
+import Footer from './components/shared/footer';
+
 export default {
   name: 'App',
 
@@ -19,7 +21,7 @@ export default {
   },
   components: {
     'app-header': Header,
-    // 'app-footer': Footer
+    'app-footer': Footer,
   },
 };
 </script>
