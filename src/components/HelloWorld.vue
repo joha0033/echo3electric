@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="p-30">
     <img class="image" src="../assets/echo-promo-1.png" alt="">
   </div>
 </template>
@@ -18,6 +18,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .image{
+    padding-top: 5%;
     width: 100%;
   }
 </style>
